@@ -1,0 +1,42 @@
+﻿{
+  "extensions": [
+    {
+      "extension": "VMAccessAgent",
+      "statuses": [
+        {
+          "status": "Ready"
+        },
+        {
+          "name": "JsonVMAccessExtension",
+          "status": "Success",
+          "message": "Succesfully updated Admin account and enabled Remote Desktop connection to the machine",
+          "operation": "Enable Remote Desktop Connection"
+        }
+      ]
+    },
+    {
+      "extension": "BGInfo",
+      "statuses": [
+        {
+          "status": "Ready",
+          "message": "Plugin enabled (name: Microsoft.Compute.BGInfo, version: 1.2.2)."
+        }
+      ]
+    },
+    {
+      "extension": "IaaSAntimalware",
+      "statuses": [
+        {
+          "status": "NotReady",
+          "message": "Enable failed for plugin (name: Microsoft.Azure.Security.IaaSAntimalware, version 1.5.5.0) with exception Command C:\\Packages\\Plugins\\Microsoft.Azure.Security.IaaSAntimalware\\1.5.5.0\\AntimalwareConfig.exe of Microsoft.Azure.Security.IaaSAntimalware has exited with Exit code: 1",
+          "code": 1009
+        },
+        {
+          "name": "Microsoft.Azure.Security.IaaSAntimalware",
+          "status": "Transitioning",
+          "operation": "Enabling Handler"
+        }
+      ]
+    }
+  ]
+}

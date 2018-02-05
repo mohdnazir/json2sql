@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "json2sql", "json2sql\json2sql.csproj", "{A3049A18-5ADC-48CA-8D76-C1D86CF801AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3049A18-5ADC-48CA-8D76-C1D86CF801AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3049A18-5ADC-48CA-8D76-C1D86CF801AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3049A18-5ADC-48CA-8D76-C1D86CF801AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3049A18-5ADC-48CA-8D76-C1D86CF801AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D885C20-5663-405B-A441-674AE723F7C5}
+	EndGlobalSection
+EndGlobal
