@@ -20,7 +20,7 @@ following SQL Script:
 **JSON Data**
 ```C#
   var json = "[ 100, 500, 300, 200, 400 ]";
-  Converter("RawData", "json", Convertertype.mssql);
+  Converter("RawData", json, Convertertype.mssql);
 ```
 
 **URL**
