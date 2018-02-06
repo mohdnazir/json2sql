@@ -3,6 +3,7 @@ using json2sql.sqlpersister;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 
 namespace json2sql
@@ -74,7 +75,7 @@ namespace json2sql
                     default:
                         break;
                 }
-
+                Debug.WriteLine(script);
                 Console.WriteLine(script);
             }
             catch (Exception e)
